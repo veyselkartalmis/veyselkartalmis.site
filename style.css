@@ -1519,7 +1519,7 @@ body {
 }
 .cuadro-l__front {
   background-image: url("https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/cuadro-1.jpg");
-  background-color: #d51e24;
+  /* background-color: #d51e24; */
   border: 1vw solid #d51e24;
 }
 .cuadro-l__front::before {
@@ -1536,7 +1536,6 @@ body {
   left: 20vw;
 }
 .cuadro-r__front {
-  background-image: url("https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/cuadro-2.jpg");
   background-color: #0f1110;
   border: 0.5vw solid #0f1110;
 }
@@ -2426,7 +2425,32 @@ body {
 }
 
 .sillon-c.second {
-  right: -11vw;
-  transform: rotate(-90deg);
-  bottom: 16vw;
+  right: -12vw;
+  transform: rotate(-90deg) translateZ(2.5vw);
+  bottom: 14vw;
+}
+
+.cuadro-l .cuadro-l__front {
+  background-image: url(./assets/github.png);
+  border: 0.5vw solid #0f1110;
+}
+
+.cuadro-r__front {
+  background-image: url(./assets/web.png);
+}
+
+.cuadro-r.poster-1 .cuadro-r__front {
+  background-image: url(./assets/javascript.png);
+}
+
+.cuadro-r.poster-2 .cuadro-r__front {
+  background-image: url(./assets/react.png);
+}
+
+.cuadro-r.poster-3 .cuadro-r__front {
+  background-image: url(./assets/nextJs.png);
+}
+
+.cuadro-r.poster-4 .cuadro-r__front {
+  background-image: url(./assets/typescript.png);
 }

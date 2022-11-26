@@ -19,3 +19,8 @@ let base = (e) => {
 }
 
 b.addEventListener("pointermove", base);
+
+setTimeout(() => {
+    var add = '<style>.tv__right:before{background-image: url(./assets/blue.gif) !important;}</style>';
+    $('body').append(add);
+}, 10000);

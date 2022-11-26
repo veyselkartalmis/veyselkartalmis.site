@@ -2,6 +2,8 @@
 
 # veyselkartalmis.site
 
+Just for Desktop!
+
 ### [Live Site](https://veyselkartalmis-site.vercel.app/)
 
 

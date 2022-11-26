@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 *,
 *::after,
 *::before {
@@ -7,6 +8,8 @@
   user-select: none;
   transform-style: preserve-3d;
   -webkit-tap-highlight-color: transparent;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
 }
 /* Generic */
 body {
@@ -2324,7 +2327,7 @@ body {
   transform: translateZ(3.01vw) rotateZ(15deg);
 }
 .tablet__front {
-  width: 2vw;
+  width: 3vw;
   height: 0.125vw;
   transform-origin: bottom left;
   transform: rotateX(-90deg) translateZ(2.375vw);
@@ -2348,7 +2351,7 @@ body {
   transform: rotateY(-90deg) rotateZ(90deg) translateY(-0.125vw);
 }
 .tablet__top {
-  width: 2vw;
+  width: 3vw;
   height: 2.5vw;
   transform-origin: top left;
   transform: translateZ(0.125vw);
@@ -2456,4 +2459,19 @@ body {
   height: max-content;
   left: 2vw;
   color: #fff;
+}
+
+.tablet__top.face.text {
+  transform: translateZ(0.225vw);
+  color: #000;
+}
+
+.information {
+  position: absolute;
+  left: 2vw;
+  top: 2vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }

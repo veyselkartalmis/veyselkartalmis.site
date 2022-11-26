@@ -1,11 +1,3 @@
-/***********************/
-/***********************/
-/************************/
-/* Mixin para crear cubo ( Caras siempre al frente ) */
-/************************/
-/***********************/
-/***********************/
-/**/
 *,
 *::after,
 *::before {
@@ -36,6 +28,7 @@ body {
   width: 28vw;
   height: 28vw;
   transform: perspective(90vw) rotateX(75deg) rotateZ(45deg) translateZ(-9vw);
+  will-change: transform;
 }
 .h-shadow {
   position: absolute;
@@ -2453,4 +2446,14 @@ body {
 
 .cuadro-r.poster-4 .cuadro-r__front {
   background-image: url(./assets/typescript.png);
+}
+
+.libro__front.face.text {
+  font-size: 11px;
+  background: transparent;
+  transform: rotateX(-95deg) translateZ(5.5vw) rotate(3deg);
+  width: max-content;
+  height: max-content;
+  left: 2vw;
+  color: #fff;
 }

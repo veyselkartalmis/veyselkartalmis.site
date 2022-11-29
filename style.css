@@ -2475,3 +2475,9 @@ body {
   flex-direction: column;
   gap: 16px;
 }
+
+.puerta__front:hover {
+  transform: rotateX(-90deg) translateZ(-15.75vw) rotateY(-10deg);
+}
+
+.puerta__front:hover:before {opacity: 0;}

@@ -1573,6 +1573,7 @@ body {
   height: 16vw;
   transform-origin: bottom left;
   transform: rotateX(-90deg) translateZ(-15.75vw);
+  transition: .4s;
 }
 .puerta__back {
   width: 7vw;
@@ -1616,6 +1617,7 @@ body {
   background-image: radial-gradient(transparent 50%, rgba(4, 61, 174, 0.25));
   box-shadow: 0.65vw 0.65vw 0.5vw rgba(81, 137, 251, 0.6), -0.65vw 0.65vw 0.5vw rgba(81, 137, 251, 0.6),
     -0.65vw -0.65vw 0.5vw rgba(81, 137, 251, 0.6), 0.65vw -0.65vw 0.5vw rgba(81, 137, 251, 0.6);
+    transition: .4s;
 }
 .puerta__front::after {
   content: "";
